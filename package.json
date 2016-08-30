@@ -1,6 +1,6 @@
 {
   "name": "local-script-html-webpack-plugin",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Add a JS or CSS assets to a generated HTML file",
   "main": "lib/index.js",
   "repository": "https://github.com/JuneChiu/local-script-html-webpack-plugin.git",

@@ -23,7 +23,7 @@ const process = (compilation, htmlPluginData) => {
 			const clearCached = () => {
 				const localStorageKeys = Object.keys(window.localStorage);
 				localStorageKeys.forEach(name => {
-					if (name.indexOf(scriptKeyPrefix) === 0) {
+					if (name.indexOf('STORE_SCRIPT_') === 0) {
 						window.localStorage.removeItem(name);
 					}
 				});
